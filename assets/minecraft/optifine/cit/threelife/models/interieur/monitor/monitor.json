@@ -1,0 +1,113 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"56": "block/concrete_gray",
+		"398": "block/monitorscherm"
+	},
+	"elements": [
+		{
+			"from": [5, 0, 7],
+			"to": [11, 0.7, 9.5],
+			"faces": {
+				"north": {"uv": [0, 0, 6, 0.7], "texture": "#56"},
+				"east": {"uv": [0, 0, 2.5, 0.7], "texture": "#56"},
+				"south": {"uv": [0, 0, 6, 0.7], "texture": "#56"},
+				"west": {"uv": [0, 0, 2.5, 0.7], "texture": "#56"},
+				"up": {"uv": [0, 0, 6, 2.5], "texture": "#56"},
+				"down": {"uv": [0, 0, 6, 2.5], "texture": "#56"}
+			}
+		},
+		{
+			"from": [5.75, 0, 9.5],
+			"to": [10.25, 0.5, 10],
+			"faces": {
+				"north": {"uv": [0, 0, 4.5, 0.5], "texture": "#56"},
+				"east": {"uv": [0, 0, 0.5, 0.5], "texture": "#56"},
+				"south": {"uv": [0, 0, 4.5, 0.5], "texture": "#56"},
+				"west": {"uv": [0, 0, 0.5, 0.5], "texture": "#56"},
+				"up": {"uv": [0, 0, 4.5, 0.5], "texture": "#56"},
+				"down": {"uv": [0, 0, 4.5, 0.5], "texture": "#56"}
+			}
+		},
+		{
+			"from": [5.75, 0, 6.5],
+			"to": [10.25, 0.5, 7],
+			"faces": {
+				"north": {"uv": [0, 0, 4.5, 0.5], "texture": "#56"},
+				"east": {"uv": [0, 0, 0.5, 0.5], "texture": "#56"},
+				"south": {"uv": [0, 0, 4.5, 0.5], "texture": "#56"},
+				"west": {"uv": [0, 0, 0.5, 0.5], "texture": "#56"},
+				"up": {"uv": [0, 0, 4.5, 0.5], "texture": "#56"},
+				"down": {"uv": [0, 0, 4.5, 0.5], "texture": "#56"}
+			}
+		},
+		{
+			"from": [7, 0.7, 8.25],
+			"to": [9, 8.4, 8.75],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 7.7], "texture": "#56"},
+				"east": {"uv": [0, 0, 0.5, 7.7], "texture": "#56"},
+				"south": {"uv": [0, 0, 2, 7.7], "texture": "#56"},
+				"west": {"uv": [0, 0, 0.5, 7.7], "texture": "#56"},
+				"up": {"uv": [0, 0, 2, 0.5], "texture": "#56"},
+				"down": {"uv": [0, 0, 2, 0.5], "texture": "#56"}
+			}
+		},
+		{
+			"from": [-0.5, 3.5, 8],
+			"to": [16.5, 12.5, 8.3],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 10], "texture": "#398"},
+				"east": {"uv": [0, 0, 0.3, 9], "texture": "#56"},
+				"south": {"uv": [0, 0, 16, 9], "texture": "#56"},
+				"west": {"uv": [0, 0, 0.3, 9], "texture": "#56"},
+				"up": {"uv": [0, 0, 16, 0.3], "texture": "#56"},
+				"down": {"uv": [0, 0, 16, 0.3], "texture": "#56"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [71, 0, 2],
+			"translation": [-2, 1.25, 3.25]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [71, 0, 0],
+			"translation": [0.75, 1, 1.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [-18, 130, 6],
+			"translation": [0, 5, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 139, 0],
+			"translation": [0.75, 4, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"translation": [0, 4.5, 0]
+		},
+		"gui": {
+			"rotation": [33, -135, 0],
+			"translation": [0, 0.5, 0]
+		},
+		"head": {
+			"translation": [0, 0.75, -6.5]
+		},
+		"fixed": {
+			"translation": [0, 32, 16.25],
+			"scale": [2, 2, 2]
+		}
+	},
+	"groups": [
+		{
+			"name": "poot",
+			"children": [0, 1, 2, 3]
+		},
+		{
+			"name": "Scherm",
+			"children": [4]
+		}
+	]
+}

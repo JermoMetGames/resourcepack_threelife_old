@@ -1,0 +1,37 @@
+{
+	"music.explode": {
+		"sounds": [
+			"music/explode"
+		]
+	},
+        "custom.centraalzuidwest": {
+		"sounds": [
+			"custom/centraalzuidwest"
+		]
+	},
+        "custom.centraalzuiduniversiteit": {
+		"sounds": [
+			"custom/centraalzuiduniversiteit"
+		]
+	},
+        "custom.centraalzuidzuid": {
+		"sounds": [
+			"custom/centraalzuidzuid"
+		]
+	},
+        "custom.zuidcentraaluniversiteit": {
+		"sounds": [
+			"custom/zuidcentraaluniversiteit"
+		]
+	},
+        "custom.zuidcentraalwest": {
+		"sounds": [
+			"custom/zuidcentraalwest"
+		]
+	},
+        "custom.zuidcentraalcentraal": {
+		"sounds": [
+			"custom/zuidcentraalcentraal"
+		]
+	}
+}

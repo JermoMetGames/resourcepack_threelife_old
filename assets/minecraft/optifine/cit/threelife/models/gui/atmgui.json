@@ -1,0 +1,28 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "block/texturen/atmgui",
+		"particle": "block/texturen/atmgui"
+	},
+	"elements": [
+		{
+			"from": [-16, 0, -16],
+			"to": [32, 1, 32],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 1], "texture": "#missing"},
+				"east": {"uv": [0, 0, 16, 1], "texture": "#missing"},
+				"south": {"uv": [0, 0, 16, 1], "texture": "#missing"},
+				"west": {"uv": [0, 0, 16, 1], "texture": "#missing"},
+				"up": {"uv": [4.75, 5, 15.75, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#missing"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [90, 0, 0],
+			"translation": [35.75, 79, 0],
+			"scale": [3.64, 3.62, 3.66]
+		}
+	}
+}
